@@ -1,0 +1,40 @@
+/* Reset some default styles */
+body, h1, h2, p, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a creative style to the table */
+.clean-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.clean-table th, .clean-table td {
+    border: 1px solid #FF69B4; /* Border color */
+    padding: 10px;
+    text-align: left;
+}
+
+.clean-table th {
+    background-color: #FF69B4; /* Header background color */
+    color: #fff; /* Header text color */
+}
+
+.clean-table tbody tr:nth-child(even) {
+    background-color: #ecf0f1; /* Even row background color */
+}
+
+/* Creative styling for other elements on the page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #34495e; /* Body background color */
+    color: #fff; /* Body text color */
+}
+
+h1 {
+    color: #3498db; /* Heading text color */
+}
+
+/* Add more styles as needed */
